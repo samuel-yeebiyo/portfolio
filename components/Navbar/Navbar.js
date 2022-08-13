@@ -11,10 +11,10 @@ const Navbar = () => {
       <div className={styles.main}>
         <a href="#main">
           <div className={styles.logo_container}>
-            {theme == 'dark' ?
-              <img className={styles.logo} src="./assets/logo-light.png" alt='logo'/>
-              :
+            {theme == 'light' ?
               <img className={styles.logo} src="./assets/logo-dark.png" alt='logo'/>
+              :
+              <img className={styles.logo} src="./assets/logo-light.png" alt='logo'/>
             }
           </div>
         </a>
@@ -22,10 +22,10 @@ const Navbar = () => {
           <div className={styles.button} onClick={()=>{
             toggle()
           }}>
-            {theme == 'dark' ?
-              <img src={'./assets/light.svg'} alt='light'/>
-              :
+            {theme == 'light' ?
               <img src={'./assets/dark.svg'} alt='dark'/>
+              :
+              <img src={'./assets/light.svg'} alt='light'/>
             }
           </div>
           <a href="#projects">projects</a>
