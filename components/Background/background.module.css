@@ -1,0 +1,18 @@
+.background{
+    width:50%;
+    margin:0 auto 100px auto;
+    background:rgb(43, 43, 43);
+    padding:30px;
+    border-radius:10px;
+}
+.background h3{
+    margin-bottom:20px;
+}
+.book{
+    border-bottom:1px solid red;
+}
+.resume{
+    margin-top:20px;
+    border-bottom: 2px solid red;
+    display: inline-block;
+}

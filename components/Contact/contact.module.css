@@ -1,0 +1,56 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+}
+.title{
+    font-weight: bold;
+    margin-bottom:30px;
+}
+.content{
+    padding:25px;
+    background:rgb(43, 43, 43);
+    display: flex;
+    width:60%;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+}
+.avatar{
+    width:300px;
+}
+.form{
+    display: flex;
+    flex-direction: column;   
+}
+.form input{
+    width:300px;
+    padding:10px;
+    margin-bottom:20px;
+    border:none;
+    font-family: 'Poppins', sans-serif;
+    border-radius:5px;
+}
+.form textarea{
+    width:300px;
+    height:200px;
+    padding:10px;
+    font-family: 'Poppins', sans-serif;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+.form button{
+    height:30px;
+    width:90px;
+    border:none;
+    font-family: 'Poppins', sans-serif;
+    background:black;
+    color:white;
+}
+.form button:hover{
+    background:white; 
+    color:black;
+    cursor: pointer;
+}
