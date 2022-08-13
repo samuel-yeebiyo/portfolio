@@ -6,4 +6,6 @@
 .content{
   width:80%;
   position:relative;
+  max-width:1920px;
 }
+

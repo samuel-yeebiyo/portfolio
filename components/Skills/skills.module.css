@@ -22,3 +22,10 @@
         gap:30px;
     }
 }
+
+@media (max-width:350px){
+    .showcase{
+        grid-template-columns: 60px 60px 60px;
+        gap:25px;
+    }
+}
