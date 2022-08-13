@@ -30,8 +30,12 @@
     list-style: none;
     width:35%;
 }
+.navs a:hover{
+    color:red;
+}
 .button{
     height:25px;
+    cursor: pointer;
 }
 .button img{
     height:100%;

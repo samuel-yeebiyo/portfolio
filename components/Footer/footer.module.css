@@ -9,7 +9,7 @@
 }
 .socials{
     display: flex;
-    gap:35px;
+    gap:40px;
     font-weight: bold;
 }
 
@@ -19,6 +19,6 @@
         width:90%;
     }
     .socials{
-        gap:10px;
+        gap:15px;
     }
 }

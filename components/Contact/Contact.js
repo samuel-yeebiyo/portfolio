@@ -13,11 +13,11 @@ const Contact = () => {
                     // height={100}
                     layout="responsive"/>
             </div>
-            <div className={styles.form}>
-                <input type={"email"} placeholder={"Leave your email"}/>
-                <textarea placeholder='Leave a message'/>
-                <button>Send</button>
-            </div>
+            <form action='https://formspree.io/f/xrgdgknp' method='POST' className={styles.form}>
+                <input type={"email"} name="Email" placeholder={"Leave your email"}/>
+                <textarea name="Message" placeholder='Leave a message'/>
+                <button type="submit">Send</button>
+            </form>
         </div>
     </div>
   )
