@@ -12,9 +12,9 @@ const Navbar = () => {
         <a href="#main">
           <div className={styles.logo_container}>
             {theme == 'dark' ?
-              <img className={styles.logo} src="./assets/logo-light.png"/>
+              <img className={styles.logo} src="./assets/logo-light.png" alt='logo'/>
               :
-              <img className={styles.logo} src="./assets/logo-dark.png"/>
+              <img className={styles.logo} src="./assets/logo-dark.png" alt='logo'/>
             }
           </div>
         </a>
@@ -23,9 +23,9 @@ const Navbar = () => {
             toggle()
           }}>
             {theme == 'dark' ?
-              <img src={'./assets/light.svg'}/>
+              <img src={'./assets/light.svg'} alt='light'/>
               :
-              <img src={'./assets/dark.svg'}/>
+              <img src={'./assets/dark.svg'} alt='dark'/>
             }
           </div>
           <a href="#projects">projects</a>

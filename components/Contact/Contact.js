@@ -11,7 +11,8 @@ const Contact = () => {
                 <Image 
                     src={Peep}
                     // height={100}
-                    layout="responsive"/>
+                    layout="responsive"
+                    alt='avatar image 2'/>
             </div>
             <form action='https://formspree.io/f/xrgdgknp' method='POST' className={styles.form}>
                 <input type={"email"} name="Email" placeholder={"Leave your email"}/>

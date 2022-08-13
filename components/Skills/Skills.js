@@ -27,19 +27,19 @@ const Skills = () => {
     <div className={styles.skills} id={"skills"}>
         <h3>SKILLS</h3>
         <div className={styles.showcase}>
-            <Image src={ReactJS} layout="responsive"/>
-            <Image src={Docker} layout="responsive"/>
-            <Image src={JS} layout="responsive"/>
+            <Image src={ReactJS} layout="responsive" alt='react'/>
+            <Image src={Docker} layout="responsive" alt='docker'/>
+            <Image src={JS} layout="responsive" alt='javascript'/>
             {theme == 'dark' ?
-              <Image src={NextDark} layout="responsive"/>
+              <Image src={NextDark} layout="responsive" alt='nextjs-dark'/>
               :
-              <Image src={NextLight} layout="responsive"/>
+              <Image src={NextLight} layout="responsive" alt='nextjs-light'/>
             }
-            <Image src={cpp} layout="responsive"/>
-            <Image src={Node} layout="responsive"/>
-            <Image src={Redis} layout="responsive"/>
-            <Image src={Java} layout="responsive"/>
-            <Image src={Python} layout="responsive"/>
+            <Image src={cpp} layout="responsive" alt='c++'/>
+            <Image src={Node} layout="responsive" alt='node'/>
+            <Image src={Redis} layout="responsive" alt='redis'/>
+            <Image src={Java} layout="responsive" alt='java'/>
+            <Image src={Python} layout="responsive" alt='python'/>
         </div>
     </div>
   )

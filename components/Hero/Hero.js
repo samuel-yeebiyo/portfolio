@@ -9,7 +9,8 @@ const Hero = () => {
           <Image 
             src={Peep}
             // height={100}
-            layout="responsive"/>
+            layout="responsive"
+            alt='avatar image'/>
         </div>
         <h1 className={styles.heading}>Hi, I'm <span className={styles.name}>Samuel Yeebiyo</span></h1>
         <h2 className={styles.title}>A Software/Web Developer</h2>
