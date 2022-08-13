@@ -6,6 +6,8 @@
     align-items: center;
     height:90vh;
     margin-bottom:50px;
+    position:relative;
+    padding-bottom:50px;
 }
 .image{
     width:200px;
@@ -29,4 +31,60 @@
 }
 .email{
     border-bottom:2px solid red;
+}
+.down{
+    position:absolute;
+    bottom:0px;
+    animation:bounce 2s ease-in-out infinite
+}
+.down svg{
+    fill:var(--fill);
+    transition:fill 0.5s ease-in-out;
+}
+
+@media (max-width:1000px){
+    .heading{
+        font-size: 3em;
+    }
+    .title{
+        font-size:1.5em
+    }
+    .description{
+        width:80%;
+    }
+}
+
+@media (max-width:770px){
+    .hero{
+        padding-top:50px;
+        justify-content: unset;
+    }
+    .heading{
+        font-size: 1.4em;
+    }
+    .title{
+        font-size:1em
+    }
+    .description{
+        width:100%;
+        font-size:0.8em
+    }
+    .contact{
+        font-size:0.8em;
+    }
+    .down{
+        bottom:35px;
+    }
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }

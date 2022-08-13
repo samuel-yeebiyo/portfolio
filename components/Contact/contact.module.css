@@ -10,8 +10,8 @@
     margin-bottom:30px;
 }
 .content{
-    padding:25px;
-    background:rgb(43, 43, 43);
+    padding: 5% 10%;
+    background:var(--secondary);
     display: flex;
     width:60%;
     justify-content: center;
@@ -19,14 +19,15 @@
     border-radius:5px;
 }
 .avatar{
-    width:300px;
+    width:50%;
 }
 .form{
     display: flex;
     flex-direction: column;   
+    width:50%;
 }
 .form input{
-    width:300px;
+    width:100%;
     padding:10px;
     margin-bottom:20px;
     border:none;
@@ -34,7 +35,8 @@
     border-radius:5px;
 }
 .form textarea{
-    width:300px;
+    border:none;
+    width:100%;
     height:200px;
     padding:10px;
     font-family: 'Poppins', sans-serif;
@@ -53,4 +55,22 @@
     background:white; 
     color:black;
     cursor: pointer;
+}
+
+@media (max-width:1000px){
+    .content{
+        width:100%;
+    }
+}
+
+@media (max-width:770px){
+    .content{
+        flex-direction: column;
+    }
+    .avatar{
+        padding-left:10px;
+    }
+    .form{
+        width:100%;
+    }
 }

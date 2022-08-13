@@ -13,7 +13,7 @@ const Card = ({image, title, description, stack, live, link, github}) => {
         </p>
         <div className={styles.links}>
           <a href={link} target="_blank">
-            <button className={!live && styles.inactive}>Live Demo</button>
+            <button className={live ? '' : styles.inactive}>Live Demo</button>
           </a>
           <div className={styles.git}>
             <a href={github} target="_blank">
@@ -24,8 +24,8 @@ const Card = ({image, title, description, stack, live, link, github}) => {
           </div>
         </div>
         <div className={styles.stack}>
-          {stack && stack.map((item)=>(
-            <div className={styles.tag}>{item}</div>
+          {stack && stack.map((item, idx)=>(
+            <div key={idx} className={styles.tag}>{item}</div>
           ))}
         </div>
       </div>

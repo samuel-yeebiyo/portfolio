@@ -1,9 +1,10 @@
 .background{
     width:50%;
     margin:0 auto 100px auto;
-    background:rgb(43, 43, 43);
+    background:var(--secondary);
     padding:30px;
     border-radius:10px;
+    transition:var(--trans);
 }
 .background h3{
     margin-bottom:20px;
@@ -15,4 +16,16 @@
     margin-top:20px;
     border-bottom: 2px solid red;
     display: inline-block;
+}
+
+@media (max-width:1000px){
+    .background{
+        width:100%;
+    }
+}
+
+@media (max-width:770px){
+    .background{
+        font-size:0.8em;
+    }
 }

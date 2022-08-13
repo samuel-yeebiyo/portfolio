@@ -16,14 +16,15 @@
     overflow: hidden;
 }
 .image img{
-    height:100%;
-    min-width:100%;
+    min-height:100%;
+    max-width:100%;
 }
 .detail{
     height:auto;
-    background:rgb(49, 49, 49);
+    background:var(--secondary);
     padding:15px;
     border-radius:0 0 5px 5px;
+    transition:var(--trans);
 }
 .title{
     font-weight:bold;
@@ -40,8 +41,8 @@
     align-items: center;
 }
 .links button{
-    background:white;
-    color:black;
+    background:var(--button-background);
+    color:var(--button-color);
     border:none;
     padding:7px;
     cursor: pointer;
@@ -67,4 +68,13 @@
     padding:5px;
     border-radius: 5px;
     font-size:0.8em;
+}
+
+@media (max-width:770px){
+    .description{
+        font-size:0.8em;
+    }
+    .tag{
+        font-size:0.7em;
+    }
 }

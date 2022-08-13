@@ -17,3 +17,9 @@
     width:80%;
     flex-wrap: wrap;
 }
+
+@media (max-width:1000px){
+    .showcase{
+        width:100%;
+    }
+}

@@ -62,8 +62,8 @@ const Projects = () => {
     <div className={styles.projects} id={"projects"}>
         <h3>PROJECTS</h3>
         <div className={styles.showcase}>
-            {projects.map((item)=>(
-                <Card image={item.image} title={item.title} description={item.description} live={item.live} link={item.link} github={item.github} stack={item.stack}/>
+            {projects.map((item, idx)=>(
+                <Card key={idx} image={item.image} title={item.title} description={item.description} live={item.live} link={item.link} github={item.github} stack={item.stack}/>
             ))
             }
         </div>
