@@ -12,7 +12,7 @@ const Projects = () => {
             link:'https://moviedb-sam.netlify.app/',
             github:'https://github.com/samuel-yeebiyo/tmdb-app',
             stack:['React', 'API'],
-            image: './assets/tmdb.png'
+            image: './assets/tmdb.jpg'
         },
         {
             title: 'Weather Application',
@@ -29,7 +29,7 @@ const Projects = () => {
             link:'',
             github:'https://github.com/samuel-yeebiyo/ecommerce-project',
             stack:['React', 'NextJS', 'Docker', 'Redis', 'Node', 'MongoDB', 'Solana'],
-            image:'./assets/shop.png'
+            image:'./assets/shop.jpg'
         },{
             title:"Blog Website",
             description:"A blog site I created (in the process of creating) to document my learning journey. In the process of migrating to NextJS.",
@@ -37,7 +37,7 @@ const Projects = () => {
             link:'',
             github:'https://github.com/samuel-yeebiyo/blog',
             stack:['NextJS', 'React', 'MongoDB', 'Node'],
-            image:'./assets/blog.png'
+            image:'./assets/blog.jpg'
         },{
             title:"Monopoly Deal",
             description:"A digital version of the card game I created to play with my friend :).",
@@ -45,7 +45,7 @@ const Projects = () => {
             link:'',
             github:'https://github.com/samuel-yeebiyo/monodeal',
             stack:['Node', 'React'],
-            image:'./assets/mono.png'
+            image:'./assets/mono.jpg'
         },
         // {
         //     title:"",
