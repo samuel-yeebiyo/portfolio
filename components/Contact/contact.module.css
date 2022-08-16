@@ -68,9 +68,12 @@
         flex-direction: column;
     }
     .avatar{
-        padding-left:10px;
+        padding-left:10%;
     }
     .form{
+        width:100%;
+    }
+    .form button{
         width:100%;
     }
 }

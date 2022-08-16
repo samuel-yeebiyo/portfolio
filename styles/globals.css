@@ -57,3 +57,10 @@ body{
     background: black;
   }
 } */
+
+@media (max-height: 615px){
+  html,
+  body{
+    scroll-padding: 80px;
+  }
+}

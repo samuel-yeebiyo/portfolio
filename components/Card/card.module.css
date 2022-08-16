@@ -50,17 +50,21 @@
     border:none;
     padding:7px;
     cursor: pointer;
+    height:30px;
 }
 .inactive{
     background:grey !important;
     color:rgb(134, 134, 134);
     cursor: not-allowed !important;
 }
+.git a{
+    display: flex;
+    align-items: center;
+    height:30px;
+}
 .git svg{
     fill:white;
     height:100%;
-    width:25px;
-    /* width:30px; */
 }
 .stack{
     display: flex;
