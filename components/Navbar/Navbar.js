@@ -28,9 +28,9 @@ const Navbar = () => {
               <img src={'./assets/light.svg'} alt='light'/>
             }
           </div>
-          <a href="#projects">projects</a>
-          <a href="#skills">skills</a>
-          <a href="#contact">contact</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
         </ul>
       </div>
     </nav>

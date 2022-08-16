@@ -60,10 +60,13 @@
         margin-bottom:10px;
     }
     .navs{
-        width:80%;
+        width:60%;
+        position:relative;
     }
     .button{
         height:18px;
+        position:absolute;
+        left:-30%;
     }
 }
 
